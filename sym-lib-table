@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP-programmer-rescue)(type Legacy)(uri "${KIPRJMOD}/ESP programmer-rescue.lib")(options "")(descr ""))
+  (lib (name esp-shield-rescue)(type Legacy)(uri ${KIPRJMOD}/esp-shield-rescue.lib)(options "")(descr ""))
+)
