@@ -167,32 +167,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ESP8266-01_ESP-01_ESP8266-01_ESP-01
-#
-DEF ESP8266-01_ESP-01_ESP8266-01_ESP-01 U 0 40 Y Y 1 L N
-F0 "U" -500 420 50 H V L BNN
-F1 "ESP8266-01_ESP-01_ESP8266-01_ESP-01" -501 -501 50 H V L BNN
-F2 "XCVR_ESP8266-01/ESP-01" 0 0 50 H I L BNN
-F3 "" 0 0 50 H I L BNN
-F4 "ESP8266-01/ESP-01" 0 0 50 H I L BNN "MP"
-F5 "None" 0 0 50 H I L BNN "Price"
-F6 "Not in stock" 0 0 50 H I L BNN "Availability"
-F7 "MakerFocus 4pcs ESP8266 ESP-01 Serial Wireless WiFi Transceiver Receiver Module 1MB SPI Flash DC3.0-3.6V Internet of Things WiFi Module Board Compatible with Ar duino" 0 0 50 H I L BNN "Description"
-F8 "AI-Thinker" 0 0 50 H I L BNN "MF"
-F9 "Non-Standard AI-Thinker" 0 0 50 H I L BNN "Package"
-DRAW
-S -500 -400 500 400 0 0 10 f
-X GND 1 700 -300 200 L 40 40 0 0 W
-X IO2 2 700 0 200 L 40 40 0 0 B
-X IO0 3 700 100 200 L 40 40 0 0 B
-X RXD 4 -700 -100 200 R 40 40 0 0 I
-X TXD 5 -700 -200 200 R 40 40 0 0 O
-X EN 6 -700 100 200 R 40 40 0 0 I
-X ~RST 7 -700 200 200 R 40 40 0 0 I
-X VCC 8 700 300 200 L 40 40 0 0 W
-ENDDRAW
-ENDDEF
-#
 # MCU_Module_Arduino_UNO_R3
 #
 DEF MCU_Module_Arduino_UNO_R3 A 0 20 Y Y 1 F N
@@ -275,6 +249,32 @@ X GPIO12 6 600 0 100 L 50 50 1 1 B
 X GPIO13 7 600 -100 100 L 50 50 1 1 B
 X VCC 8 0 800 100 D 50 50 1 1 W
 X CS0 9 -600 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# esp-shield-rescue_ESP8266-01_ESP-01-ESP8266-01_ESP-01
+#
+DEF esp-shield-rescue_ESP8266-01_ESP-01-ESP8266-01_ESP-01 U 0 40 Y Y 1 L N
+F0 "U" -500 420 50 H V L BNN
+F1 "esp-shield-rescue_ESP8266-01_ESP-01-ESP8266-01_ESP-01" -501 -501 50 H V L BNN
+F2 "XCVR_ESP8266-01/ESP-01" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "ESP8266-01/ESP-01" 0 0 50 H I L BNN "MP"
+F5 "None" 0 0 50 H I L BNN "Price"
+F6 "Not in stock" 0 0 50 H I L BNN "Availability"
+F7 "MakerFocus 4pcs ESP8266 ESP-01 Serial Wireless WiFi Transceiver Receiver Module 1MB SPI Flash DC3.0-3.6V Internet of Things WiFi Module Board Compatible with Ar duino" 0 0 50 H I L BNN "Description"
+F8 "AI-Thinker" 0 0 50 H I L BNN "MF"
+F9 "Non-Standard AI-Thinker" 0 0 50 H I L BNN "Package"
+DRAW
+S -500 -400 500 400 0 0 10 f
+X GND 1 700 -300 200 L 40 40 0 0 W
+X IO2 2 700 0 200 L 40 40 0 0 B
+X IO0 3 700 100 200 L 40 40 0 0 B
+X RXD 4 -700 -100 200 R 40 40 0 0 I
+X TXD 5 -700 -200 200 R 40 40 0 0 O
+X EN 6 -700 100 200 R 40 40 0 0 I
+X ~RST 7 -700 200 200 R 40 40 0 0 I
+X VCC 8 700 300 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
