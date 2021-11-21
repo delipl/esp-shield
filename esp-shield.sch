@@ -263,7 +263,7 @@ L Connector_Generic:Conn_02x03_Counter_Clockwise J1
 U 1 1 6197F6A5
 P 4700 4200
 F 0 "J1" H 4750 4517 50  0000 C CNN
-F 1 "Conn_02x03_Counter_Clockwise" H 4750 4426 50  0000 C CNN
+F 1 "UART MODE" H 4750 4426 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4700 4200 50  0001 C CNN
 F 3 "~" H 4700 4200 50  0001 C CNN
 	1    4700 4200
